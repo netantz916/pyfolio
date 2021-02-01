@@ -76,3 +76,16 @@ PERIODS['Recovery'] = (pd.Timestamp('20090401'),
 
 PERIODS['New Normal'] = (pd.Timestamp('20130101'),
                          pd.Timestamp('today'))
+
+# Brexit Jun 24, 2016 +/- 2weeks
+PERIODS['Brexit'] = (pd.Timestamp('20160610'), pd.Timestamp('20160730'))
+
+# Market regimes
+PERIODS['Low Volatility Bull Market 2017'] = (pd.Timestamp('20170101'), pd.Timestamp('20171231'))
+
+# Covid-19 crash
+PERIODS['Covid-19 Crash'] = (pd.Timestamp('20200207'), pd.Timestamp('20200331'))
+
+# Liquidity driven bull market
+PERIODS['Liquidity Driven Bull Market'] = (pd.Timestamp('20190101'), pd.Timestamp('20200131'))
+PERIODS['Liquidity Driven Bull Market'] = (pd.Timestamp('20200324'), pd.Timestamp('20210120'))
